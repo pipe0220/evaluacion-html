@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <title>HOTEL-EL DORADO</title>
+</head>
+<body>
+<div class="barranav">
+    <a href="#inicio">HOTEL EL DORADO</a>
+    <a href="#habitaciones">Habitaciones</a>
+    <a href="#servicios">Servicios</a>
+    <a href="contacto.html">Contacto</a>
+</div>
+<div id="imagen-div">
+    <img src="hotel1.jpeg" alt="Imagen del hotel">
+</div>
+<div class="contenedor">
+    <h1>HOTEL EL DORADO</h1>
+    <form>
+<div class="grupo">
+    <label for="tipoCliente">Tipo de persona:</label>
+    <select id="tipoCliente" name="tipoCliente">
+    <option value="individual">Individual</option>
+    <option value="empresa">Empresa</option>
+    </select>
+</div>
+
+<div class="grupo">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre">
+</div>
+
+<div class="grupo">
+    <label for="telefono">Teléfono:</label>
+    <input type="text" id="telefono" name="telefono">
+</div>
+
+<div class="grupo">
+    <label for="fechaLlegada">Fecha de Llegada:</label>
+    <input type="date" id="fechaLlegada" name="fechaLlegada">
+</div>
+
+<div class="grupo">
+    <label for="fechaSalida">Fecha de Salida:</label>
+    <input type="date" id="fechaSalida" name="fechaSalida">
+</div>
+
+<div class="form-group">
+    <label for="tipoHabitacion">Tipo de Habitación:</label>
+    <select id="tipoHabitacion" name="tipoHabitacion">
+        <option value="sencilla">Sencilla</option>
+        <option value="doble">Doble</option>
+        <option value="suite">Suite</option>
+        <option value="nofum">Para no fuamadores</option>
+    </select>
+</div>
+
+<div class="grupo">
+    <label for="cantidadHabitaciones">Cantidad de Habitaciones:</label>
+    <input type="number" id="cantidadHabitaciones" name="cantidadHabitaciones">
+</div>
+<div class="grupo">
+    <label for="observaciones">Observaciones:</label>
+    <textarea id="observaciones" name="observaciones" rows="4"></textarea>
+</div>
+
+<button type="submit" class="btn">Realizar Reserva</button>
+        </form>
+    </div>
+</body>
+</html>
